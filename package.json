@@ -1,5 +1,5 @@
 {
-  "name": "@biesbjerg/ngx-translate-po-http-loader",
+  "name": "@fullstax/ngx-translate-po-http-loader",
   "version": "3.1.0",
   "description": "Load po files for use with ngx-translate",
   "main": "dist/index.js",
@@ -15,37 +15,37 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/biesbjerg/ngx-translate-po-http-loader.git"
+    "url": "https://github.com/fllstx/ngx-translate-po-http-loader.git"
   },
   "keywords": [],
   "author": "Kim Biesbjerg <kim@biesbjerg.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/biesbjerg/ngx-translate-po-http-loader/issues"
+    "url": "https://github.com/fllstx/ngx-translate-po-http-loader/issues"
   },
-  "homepage": "https://github.com/biesbjerg/ngx-translate-po-http-loader",
+  "homepage": "https://github.com/fllstx/ngx-translate-po-http-loader",
   "engines": {
     "node": ">=4.1.1"
   },
   "config": {},
   "peerDependencies": {
-    "@angular/common": "^12.2.14",
-    "@angular/core": "^12.2.14",
-    "@ngx-translate/core": "^13.0.0"
+    "@angular/common": ">=8",
+    "@angular/core": ">=8",
+    "@ngx-translate/core": ">=12"
   },
   "dependencies": {
-    "gettext-parser": "^4.0.4"
+    "gettext-parser": "^5.0.0"
   },
   "devDependencies": {
-    "@angular/common": "^12.2.14",
-    "@angular/core": "^12.2.14",
-    "@angular/platform-browser": "^12.2.14",
-    "@ngx-translate/core": "^13.0.0",
-    "@types/gettext-parser": "^4.0.0",
-    "rxjs": "^6.6.6",
+    "@angular/common": "^13.2.4",
+    "@angular/core": "^13.2.4",
+    "@angular/platform-browser": "^13.2.4",
+    "@ngx-translate/core": "^14.0.0",
+    "@types/gettext-parser": "^4.0.1",
+    "rxjs": "^7.5.4",
     "tslint": "5.8.0",
     "tslint-eslint-rules": "^4.1.1",
-    "typescript": "^4.2.3",
+    "typescript": "^4.6.2",
     "zone.js": "^0.11.4"
   }
 }
